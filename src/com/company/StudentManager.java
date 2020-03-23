@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class StudentManager {
+public class StudentManager implements IStudentManager {
     public static Scanner scanner = new Scanner(System.in);
     private List<Student> studentList;
     private StudentDao studentDao;

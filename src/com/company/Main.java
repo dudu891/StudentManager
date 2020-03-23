@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         String choose = null;
         boolean exit = false;
-        StudentManager studentManager = new StudentManager();
+        IStudentManager studentManager = new StudentManager();
         int studentId;
 
         // show menu

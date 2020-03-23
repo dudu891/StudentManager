@@ -7,4 +7,5 @@ public interface IStudentManager {
     void sortStudentByName();
     void sortStudentByGPA();
     void show();
+    int inputId();
 }
